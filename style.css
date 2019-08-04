@@ -1,0 +1,123 @@
+
+
+
+/* change navbar background */
+.navbar {
+    background-color: ghostwhite;
+}
+
+/* change navbar-brand color on hover */
+.navbar a.navbar-brand:hover {
+    color: grey;
+}
+
+/* change navbar-brand color */
+.navbar a.navbar-brand {
+    color: white;
+}
+
+/*  change navbar li colors, also active one but not disabled one */
+.navbar ul.navbar-nav li.nav-item a.nav-link {
+    color: grey;
+}
+/* change brand */
+.navbar-brand {
+    background-color:#45B39D;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px 20px 15px 20px;
+    margin-left: 140px;
+}
+
+/* body */
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    color: #45B39D;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: #45B39D;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h3 {
+    color: #45B39D;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p {
+    color: #808B96;
+    background-color: white;
+}
+
+.container{
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 3rem;
+}
+
+/* change the background of the cards */
+.container.card-container{
+    background-color: lightgrey;
+}
+
+img.wrap {
+    float: left;
+}
+
+.img-thumbnail {
+    border: 0;
+    padding: 1;
+    }
+
+.img-thumbnail:hover {
+    border: solid 1px #2980B9;
+    
+}
+
+.img-thumbnail.active {
+    border: solid 2px  #45B39D;
+    padding: 1;
+    
+
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    background-color:#737373;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: ghostwhite;
+    padding-top: 3px;
+    
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .navbar{
+        background-color: #45B39D;
+
+    }
+    .navbar-brand{
+        margin-left: 10px;
+    }
+
+}
+

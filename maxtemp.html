@@ -1,14 +1,12 @@
-<!--* A [landing page](#landing-page) containing:
-  * An explanation of the project.
-  * Links to each visualizations page.-->
-
+<!--* Max Temperature Page -->
+  
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Web Visualization Dashboard</title>
-      <!-- Bring in our bootstrap stylesheet -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Web Visualization Dashboard</title>
+    <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
     <link rel="stylesheet" href="style.css">
 </head>
@@ -50,15 +48,15 @@
         <div class="col-xs-12 col-sm-12 col-md-8 mb-2">
             <div class="card">
                 <div class="card-body"> 
-                    <h2>Summary: Latitude vs. X</h2>
+                    <h2>Max Temperature</h2>
                     <hr>
                     <br>
                     <p class="card-text">
-                    <img class="wrap img-fluid" src="Resources/assets/images/Fig1.png" style="width:200px">
-                    The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from OpenWeatherMap API to assemble a dataset on over 500 cities. 
-                    </p>
-                    <p class="card-text">
-                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitue. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trentds and correlations witnessed
+                    <img class="wrap img-fluid" src="Resources/assets/images/Fig1.png">
+                    As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). 
+                    More Interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of 
+                    year than the northern hemisphere. This may be due to the tilt of the Earth at the time of year this 
+                    data was gathered.
                     </p>
                 </div>
             </div>
@@ -71,7 +69,7 @@
                 <hr>
                     <div class="row" >
                         <div class="col-md-6">
-                            <a href="maxtemp.html"><img  class="img-thumbnail" src="Resources/assets/images/Fig1.png"></a>
+                            <a href="maxtemp.html"><img  class="img-thumbnail active" src="Resources/assets/images/Fig1.png"></a>
                         </div>
                         <div class="col-md-6">
                             <a href="humidity.html"><img class ="img-thumbnail" src="Resources/assets/images/Fig2.png"></a>
@@ -96,7 +94,7 @@
                     <hr>
                         <div class="row" >
                             <div class="col-3">
-                                <a href="maxtemp.html"><img  class="img-thumbnail" src="Resources/assets/images/Fig1.png"></a>
+                                <a href="maxtemp.html"><img  class="img-thumbnail active" src="Resources/assets/images/Fig1.png"></a>
                             </div>
                             <div class="col-3">
                                 <a href="humidity.html"><img class ="img-thumbnail" src="Resources/assets/images/Fig2.png"></a>
@@ -113,6 +111,13 @@
             </div>
     </div>
 </div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 <footer class="footer">
@@ -120,13 +125,7 @@
     </div>
 
 </footer>
-
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script></body>
-
-
 </html>
+  
+  
+  
